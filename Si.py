@@ -12,7 +12,7 @@ import pandas as pd
 import matplotlib
 from matplotlib import pyplot as plt
 #%%
-num=32
+num=64
 # n_aSi_940 = 3.72
 # n_Si_940=3.48
 n_SiO2_940 = 1.45359 
@@ -94,7 +94,7 @@ if __name__ == '__main__':
     Ref=[]
     ra_str=0.208
     ra_end=0.383
-    step_size=0.001
+    step_size=0.0005
     int_n=int((ra_end-ra_str)/step_size)
     index_str=1
     index_end=10
